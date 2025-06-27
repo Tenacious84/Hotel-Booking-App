@@ -1,0 +1,13 @@
+header {
+    background-color: gold;
+}
+
+.mobile-hamburger-menu {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .auth {
+        display: none;
+    }
+}
