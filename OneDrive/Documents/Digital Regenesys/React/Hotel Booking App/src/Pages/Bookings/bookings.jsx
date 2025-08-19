@@ -1,11 +1,13 @@
 import React from 'react'
+import './Bookings.css'
 
-function bookings() {
+
+function Bookings() {
   return (
     <div>
-        i
+      Bookings
     </div>
   )
 }
 
-export default bookings
+export default Bookings

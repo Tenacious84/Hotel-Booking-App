@@ -7,11 +7,19 @@
 .navContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
+    justify-content: space-evenly;
+    height: 5vh;
+    background-color: darkgoldenrod;
+box-shadow:0 3px 10px  rgb(144, 195, 63);
+}
+ a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
 }
 
-.navContainer a {
-    width: 100%;
-    height: 100%;
+ a:hover{
+    color: green;
+   border-bottom: 3px  solid;
 }
