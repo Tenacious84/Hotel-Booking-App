@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+.taskContainer{
+    margin: 30px;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px;
+    justify-content: space-between;
+    border-radius: 40px;
+    
+}
+.accessories{
+    display: flex;
+    margin: 10px;
+}
+.deleteButton{
+    border :none;
+    
+}
+.checkbox{
+margin-right: 15px;
+}
