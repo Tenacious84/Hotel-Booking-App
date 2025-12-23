@@ -61,7 +61,7 @@ const getUsers = async (req, res) => {
     })
 }
 
-const getProfile = async (req, res) => {
+const getUser = async (req, res) => {
     console.log("PARAMS:", req.params)
     console.log("ID:", req.params.id)
 
@@ -74,4 +74,4 @@ const getProfile = async (req, res) => {
 
 }
 
-module.exports = { registerUser, loginUser, getUsers, getProfile }
+module.exports = { registerUser, loginUser, getUsers, getUser }
